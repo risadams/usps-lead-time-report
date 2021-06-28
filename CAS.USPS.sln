@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.USPS", "CAS.USPS\CAS.USPS.csproj", "{F4E584FF-346E-405F-8A77-52A2EEE52AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAS.USPS.Test", "CAS.USPS.Test\CAS.USPS.Test.csproj", "{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeadTimesReportGenerator", "LeadTimesReportGenerator\LeadTimesReportGenerator.csproj", "{8B619648-D964-49B6-B896-66C23F1BA491}"
+EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "Installer", "Installer\Installer.aiproj", "{180A7C3D-B268-4275-A344-C366E46C697F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8B619648-D964-49B6-B896-66C23F1BA491} = {8B619648-D964-49B6-B896-66C23F1BA491}
+		{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3} = {5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}
+		{F4E584FF-346E-405F-8A77-52A2EEE52AFA} = {F4E584FF-346E-405F-8A77-52A2EEE52AFA}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://chrisadams.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CAS.USPS\\CAS.USPS.csproj
+		SccProjectName1 = CAS.USPS
+		SccLocalPath1 = CAS.USPS
+		SccProjectUniqueName2 = CAS.USPS.Test\\CAS.USPS.Test.csproj
+		SccProjectName2 = CAS.USPS.Test
+		SccLocalPath2 = CAS.USPS.Test
+		SccProjectUniqueName3 = LeadTimesReportGenerator\\LeadTimesReportGenerator.csproj
+		SccProjectName3 = LeadTimesReportGenerator
+		SccLocalPath3 = LeadTimesReportGenerator
+		SccProjectUniqueName4 = Installer\\Installer.aiproj
+		SccProjectName4 = Installer
+		SccLocalPath4 = Installer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4E584FF-346E-405F-8A77-52A2EEE52AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E584FF-346E-405F-8A77-52A2EEE52AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E584FF-346E-405F-8A77-52A2EEE52AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E584FF-346E-405F-8A77-52A2EEE52AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2A0350-C997-4A7A-B80A-FA9ED9094DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B619648-D964-49B6-B896-66C23F1BA491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B619648-D964-49B6-B896-66C23F1BA491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B619648-D964-49B6-B896-66C23F1BA491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B619648-D964-49B6-B896-66C23F1BA491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180A7C3D-B268-4275-A344-C366E46C697F}.Debug|Any CPU.ActiveCfg = All
+		{180A7C3D-B268-4275-A344-C366E46C697F}.Release|Any CPU.ActiveCfg = All
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
